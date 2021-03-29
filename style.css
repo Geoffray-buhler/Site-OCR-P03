@@ -63,7 +63,6 @@ nav{
 
 video{
     margin-top: -5vh;
-    pointer-events: none;
     z-index: 3;
     opacity: 0,5;
     border-radius: 10px;
