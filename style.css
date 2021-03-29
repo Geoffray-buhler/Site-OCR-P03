@@ -155,7 +155,8 @@ background-color: #383838;
     padding: 6vh 2vh 0 2vh;
     max-height: 22vw;
     max-width: 50vw;
-    animation: lux running 30s linear 1s infinite ;
+    animation: lux 30s linear 1s infinite ;
+    animation-play-state: running;
     z-index: 2;
 }
 
