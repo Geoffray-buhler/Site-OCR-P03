@@ -546,7 +546,6 @@ circle:nth-child(0n+10) {
         margin-top: -5vh;
         height: 50vh;
         width: 30vw;
-        pointer-events: none;
         z-index: 3;
         opacity: 0,5;
     }
