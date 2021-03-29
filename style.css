@@ -529,7 +529,7 @@ circle:nth-child(0n+10) {
         display: flex;
         position: absolute;
         right: 0;
-        left: 10;
+        left: 50%;
         top: 100px;
         z-index: 100;
     }
@@ -557,8 +557,9 @@ circle:nth-child(0n+10) {
         padding: 0 2vh 0 2vh;
         max-height: 19vw;
         max-width: 50vw;
-        animation: 30s linear 1s infinite running lux ;
-        z-index: 2;;
+        animation:lux 30s linear 1s infinite ;
+        animation-play-state: running;
+        z-index: 2;
     }
     
     .viewer{
