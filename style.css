@@ -503,8 +503,6 @@ circle:nth-child(0n+10) {
   
   @media (min-width: 768px) and (max-width: 1024px) {
     
-
-    
   }
   
   @media (min-width: 0px) and (max-width: 1024px) {
@@ -521,6 +519,11 @@ circle:nth-child(0n+10) {
         background: linear-gradient(0deg, rgba(148,100,85,1) 0%, rgba(41,63,97,1) 100%);
         border-bottom: #383838;
         border:double;
+    }
+
+    .bg-nav{
+        width: 100%;
+        background-color: #383838;
     }
 
     .menu{
@@ -542,6 +545,8 @@ circle:nth-child(0n+10) {
         left: 50%;
         top: 100px;
         z-index: 100;
+        margin: -2rem 4rem 0px -6rem;
+        width: 330px;
     }
 
     svg{
@@ -591,7 +596,6 @@ circle:nth-child(0n+10) {
         align-items: center;
         justify-content: center;
         background-color: var(--four-color);
-        width: 100vw;
         z-index: 10;
         flex-direction: column;
     }
@@ -632,6 +636,13 @@ circle:nth-child(0n+10) {
     .btn-primary {
         color: var(--five-color);
         background-color: var(--primary-color);
+        padding: 1rem 1rem 1rem  1rem;
+        border-radius: 5px;
+        font-size:medium;
+    }
+    .btn-primary:hover{
+        color:var(--primary-color) ;
+        background-color: var(--five-color) ;
         padding: 1rem 1rem 1rem  1rem;
         border-radius: 5px;
     }
