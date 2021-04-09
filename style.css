@@ -135,6 +135,15 @@ background-color: #383838;
     color: var(--primary-color);
 }
 
+.btn-contact{
+    color: var(--five-color);
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    font-size: larger;
+    border: none;
+    border-radius: 5px;
+}
+
 .btn-primary{
     color: var(--five-color);
     background-color: var(--primary-color);
