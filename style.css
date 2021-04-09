@@ -547,6 +547,9 @@ circle:nth-child(0n+10) {
         z-index: 100;
         margin: -2rem 4rem 0px -6rem;
         width: 330px;
+        background-color: var(--five-color);
+        padding: 5px;
+        flex-direction: column;
     }
 
     svg{
